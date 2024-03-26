@@ -1,5 +1,5 @@
-input_line = gets.to_i
-input_line.times do
-  s = gets.chomp.split(" ")
-  print "hello = #{ s[0] } , world = #{ s[1] }\n"
-end
+s = gets.split(" ")
+a = s[0].to_i
+b = s[1].to_i
+result = a + b
+puts result
